@@ -1,0 +1,84 @@
+
+/*For small phones i.e, having max-width of 480px*/
+@media only screen and (max-width: 480px){
+
+}
+
+
+/*For small phones to small tablets i.e, having max-width of 767px*/
+@media only screen and (max-width: 767px){}
+   /* body{ font-size: 1px; }
+    section{padding: 30px 0;}
+    .row,
+    .hero-text-box{padding: 0% 4%;}
+    .col{width: 100%;}
+}
+
+
+
+/*For small tablets to big tablets i.e, having max-width of 1023px*/
+@media only screen and (max-width: 1023px){
+    body{font-size: 18px;}
+    section {padding: 60px 0px;}
+    .long-copy{
+        
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    /*.main-nav{display: none;}*/
+    .main-nav{float: left;;}
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+    .main-nav li{display: block;}
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        margin-top: 10px;
+        transform: translateY(-25px);
+        padding: 0%;
+    }
+    .main-nav li a:visited,
+    .main-nav li a:link{display: block;}
+    .sticky{height: 125px;}
+    
+    .phone{-webkit-transform: scale(0.35) translateY(-1100px);transform: scale(0.35) translateY(-1100px);}
+    .steps{margin-top: -8%;}
+    .section-steps{
+        height: 600px;
+    }
+    .icons{ -webkit-transform: translateY(-20px); transform: translateY(-20px); }
+    .section-cities{-webkit-transform: translateY(-80px);transform: translateY(-80px);}
+    .city1 img{-webkit-transform: translate(20px, -20px);transform: translate(20px, -20px);}
+    .city1 p{-webkit-transform: translate(20px,-20px);transform: translate(20px,-20px);}
+    blockquote{-webkit-transform: translateY(-130px);transform: translateY(-130px);}
+    .reviews{width: 92%;
+    margin-left: 4%;}
+    .section-review{height: 400px;}
+    .section-plans{-webkit-transform: translateY(-600px);transform: translateY(-600px);
+    height: 550px;}
+    .section-form{margin-top: 2%;}
+    .footer-icons{-webkit-transform: translateX(-200px);transform: translateX(-200px)}
+    .copyright{-webkit-transform: translate(-170px,70px);transform: translate(-170px,70px);}
+    form{margin-right: 35%;
+         -webkit-transform: translateX(-200px);
+                 transform: translateX(-200px)
+    }
+}
+
+/*For big tablets to 1200px i.e, having max-width of 1200px*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        
+        width: 100% !important;
+        padding: 0% 2% !important;/*top-bottom left-right*/
+    }
+    .row{padding: 0% 2%;}
+    .korimg{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+        }
+    
+}
